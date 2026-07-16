@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 
 # Set page configuration
 st.set_page_config(
-    page_title="Thales 5G Manufacturing Monitor",
+    page_title="5G Manufacturing Monitor",
     page_icon="🏭",
     layout="wide"
 )
@@ -186,7 +186,7 @@ if uploaded_file is not None:
     if clf is not None:
         used_custom_data = True
 else:
-    DEFAULT_DATA_PATH = "Thales_Group_Manufacturing.csv"
+    DEFAULT_DATA_PATH = "Manufacturing.csv"
     if os.path.exists(DEFAULT_DATA_PATH):
         current_df = pd.read_csv(DEFAULT_DATA_PATH)
         clf, encoder, medians, status_msg = train_leak_free_pipeline(current_df)
@@ -194,7 +194,7 @@ else:
 
 # Main App Header
 st.title("🏭 AI-Based Manufacturing Efficiency & 5G Telemetry Platform")
-st.caption("Thales Group Industrial Operations Hub — Network-Aware Optimization Pipeline")
+st.caption("Industrial Operations Hub — Network-Aware Optimization Pipeline")
 
 # Display Training Status Alert Banner
 if clf is not None:
