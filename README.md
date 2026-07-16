@@ -1,15 +1,15 @@
-# Efficiency Classification for Thales Group
+# Industrial Process Efficiency Predictor
 
 ## Project Overview
-This project classifies manufacturing process efficiency using Thales Group manufacturing data. The goal is to identify efficient vs inefficient processes so stakeholders can prioritize process improvements and reduce costs.
+This project classifies manufacturing process efficiency using manufacturing data. The goal is to identify efficient vs inefficient processes so stakeholders can prioritize process improvements and reduce costs.
 
 ## Contents
 - `app.py` — minimal runner for the model or evaluation scripts
-- `Thales_Group_Manufacturing.csv` — dataset used for training and analysis
+- `Manufacturing.csv` — dataset used for training and analysis
 - `requirements.txt` — Python dependencies
 
 ## Data
-The dataset contains manufacturing features and an efficiency label. See `Thales_Group_Manufacturing.csv` for column details and raw values.
+The dataset contains manufacturing features and an efficiency label. See `Manufacturing.csv` for column details and raw values.
 
 ## Model and Approach
 - Preprocessing: data cleaning, feature engineering, categorical encoding, scaling
@@ -50,4 +50,4 @@ Add your final model metrics and key charts here. Recommended items for this sec
 ## Contact
 Project owner: Data Science Team
 For questions or requests, contact the project lead.
-# Efficiency-Classification-for-Thales-Group-
+
